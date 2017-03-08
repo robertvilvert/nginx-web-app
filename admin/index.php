@@ -7,6 +7,5 @@ $objJson->timesTamp = date_timestamp_get($date);
 $objJson->serverId = gethostname();
 
 $objReceive = json_encode($objJson);
-echo "Teste de downtime";
 echo $objReceive;
 ?>
